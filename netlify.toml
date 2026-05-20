@@ -1,0 +1,58 @@
+[build]
+  publish = "."
+  base = "/root/workspace/projects/azalea-hospice"
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/what-is-hospice"
+  to = "/what-is-hospice.html"
+  status = 200
+
+[[redirects]]
+  from = "/when-is-it-time"
+  to = "/when-is-it-time.html"
+  status = 200
+
+[[redirects]]
+  from = "/faq"
+  to = "/faq.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/choosing-hospice"
+  to = "/choosing-hospice.html"
+  status = 200
+
+[[redirects]]
+  from = "/what-it-covers"
+  to = "/what-it-covers.html"
+  status = 200
+
+[[redirects]]
+  from = "/service-area"
+  to = "/service-area.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/cost"
+  to = "/what-it-costs.html"
+  status = 200
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
