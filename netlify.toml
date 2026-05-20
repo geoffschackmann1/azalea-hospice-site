@@ -1,6 +1,5 @@
 [build]
   publish = "."
-  base = "/root/workspace/projects/azalea-hospice"
 
 [[redirects]]
   from = "/"
