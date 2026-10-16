@@ -3,70 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Azalea Hospice & Palliative Care — Tyler, TX</title>
-<meta name="description" content="Hospice care in Tyler, Texas. We accompany people through the last chapter of life with skilled care, attentive presence, and uncompromising dignity.">
+<title>Azalea Hospice & Palliative Care — Not currently providing care</title>
+<meta name="description" content="Azalea Hospice & Palliative Care is not currently providing care or accepting patients. If you need hospice care now, here is where to find it.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "Azalea Hospice & Palliative Care",
-  "legalName": "Avant Hospice, LLC dba Azalea Hospice & Palliative Care",
-  "description": "Hospice care in Tyler, Texas — skilled end-of-life care with attentive presence and uncompromising dignity.",
-  "url": "https://azaleahospice.com",
-  "telephone": "(XXX) XXX-XXXX",
-  "email": "info@azaleahospice.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "307 S McDonald, Suite 100C",
-    "addressLocality": "McKinney",
-    "addressRegion": "TX",
-    "postalCode": "75069",
-    "addressCountry": "US"
-  },
-  "areaServed": [
-    {"@type": "City", "name": "Tyler"},
-    {"@type": "City", "name": "Whitehouse"},
-    {"@type": "City", "name": "Lindale"},
-    {"@type": "City", "name": "Bullard"},
-    {"@type": "City", "name": "Jacksonville"},
-    {"@type": "City", "name": "Troup"},
-    {"@type": "City", "name": "Flint"},
-    {"@type": "City", "name": "Overton"}
-  ],
-  "medicalSpecialty": "Hospice and Palliative Medicine",
-  "foundingDate": "2026",
-  "license": "TX HHSC #020708",
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "Avant Hospice, LLC"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "GeoCircle",
-  "geoMidpoint": {
-    "@type": "GeoCoordinates",
-    "latitude": 32.3505,
-    "longitude": -95.3005
-  },
-  "geoRadius": "50000",
-  "description": "Service area covering Tyler and Smith County, Texas"
-}
-</script>
 <style>
 /* ── Reset ── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{font-size:16px;-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+html{font-size:16px;-webkit-text-size-adjust:100%}
 body{
   font-family:'Inter',system-ui,-apple-system,sans-serif;
   font-weight:400;font-size:1rem;line-height:1.65;
   color:#1A1A1A;background:#FAFAF8;
-  -webkit-font-smoothing:antialiased
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;display:flex;flex-direction:column
 }
 
 /* ── Colors ── */
@@ -80,28 +31,19 @@ body{
 }
 
 /* ── Typography ── */
-h1,h2,h3,h4{font-family:'Fraunces',Georgia,serif;font-weight:300;line-height:1.2;color:var(--ink)}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:300;line-height:1.2;color:var(--ink)}
 h1{font-size:clamp(1.8rem,4.5vw,2.75rem);letter-spacing:-0.02em}
-h2{font-size:clamp(1.4rem,3vw,2rem)}
-h3{font-size:clamp(1.1rem,2vw,1.35rem);font-weight:400}
+h3{font-size:1.1rem;font-weight:400}
 p{margin-bottom:1em;max-width:68ch;color:var(--ink-mid)}
 p:last-child{margin-bottom:0}
 a{color:var(--rose-dark);text-decoration:underline;text-decoration-color:var(--rose-light);text-underline-offset:3px;transition:color .15s}
 a:hover{color:var(--rose)}
 
-/* ── Layout ── */
-.container{max-width:1100px;margin:0 auto;padding:0 1.5rem}
-
 /* ── Header ── */
-.site-header{
-  border-bottom:1px solid var(--rule);
-  background:var(--white);
-  position:sticky;top:0;z-index:100
-}
+.site-header{border-bottom:1px solid var(--rule);background:var(--white)}
 .header-inner{
-  display:flex;align-items:center;justify-content:space-between;
-  max-width:1100px;margin:0 auto;padding:.75rem 1.5rem;
-  gap:1rem
+  display:flex;align-items:center;
+  max-width:1100px;margin:0 auto;padding:.75rem 1.5rem
 }
 .header-logo{
   display:flex;align-items:center;gap:.75rem;
@@ -110,8 +52,7 @@ a:hover{color:var(--rose)}
 .header-logo svg{width:32px;height:32px;flex-shrink:0}
 .header-logo span{
   font-family:'Fraunces',Georgia,serif;
-  font-size:1.05rem;font-weight:400;
-  line-height:1.2
+  font-size:1.05rem;font-weight:400;line-height:1.2
 }
 .header-logo span small{
   display:block;
@@ -120,240 +61,73 @@ a:hover{color:var(--rose)}
   text-transform:uppercase;letter-spacing:.08em;
   color:var(--ink-light)
 }
-.header-phone{
-  font-family:'Inter',sans-serif;
-  font-size:.9rem;font-weight:600;
-  color:var(--sage);white-space:nowrap;
-  text-decoration:none;
-  display:flex;align-items:center;gap:.4rem
-}
-.header-phone:hover{color:var(--sage-dark)}
-.header-phone .label{
-  font-size:.65rem;font-weight:500;
-  text-transform:uppercase;letter-spacing:.06em;
-  color:var(--ink-light);
-  display:block;text-align:right
-}
 
 /* ── Hero ── */
 .hero{
   padding:clamp(3rem,8vw,6rem) 1.5rem clamp(2.5rem,5vw,4rem);
-  text-align:center;
-  background:var(--surface);
-  position:relative
+  text-align:center;background:var(--surface);position:relative
 }
 .hero::after{
-  content:'';display:block;
-  width:100%;height:4px;
+  content:'';display:block;width:100%;height:4px;
   background:linear-gradient(90deg,var(--rose),var(--sage),var(--gold));
   position:absolute;bottom:0;left:0
 }
 .hero-mark{margin-bottom:1.5rem}
 .hero-mark svg{width:56px;height:56px}
-.hero h1{margin-bottom:1rem;max-width:720px;margin-left:auto;margin-right:auto}
+.hero h1{margin:0 auto 1rem;max-width:720px}
 .hero .dek{
   font-size:clamp(1rem,2vw,1.15rem);
-  max-width:600px;margin:0 auto 2rem;
+  max-width:600px;margin:0 auto;
   color:var(--ink-mid);line-height:1.6
 }
-.hero-cta{margin-bottom:1rem}
-.btn{
-  display:inline-block;
-  font-family:'Inter',sans-serif;
-  font-size:1.05rem;font-weight:600;
-  padding:.85rem 2rem;
-  border-radius:4px;
-  text-decoration:none;
-  transition:all .15s;
-  cursor:pointer;border:none
-}
-.btn-primary{
-  background:var(--rose);color:var(--white)
-}
-.btn-primary:hover{background:var(--rose-dark)}
-.btn-phone{
-  background:var(--sage);color:var(--white)
-}
-.btn-phone:hover{background:var(--sage-dark)}
-.btn+.btn{margin-left:.75rem}
-.hero-sub{
-  font-size:.85rem;color:var(--ink-light);
-  margin-top:.5rem
-}
 
-/* ── Reassurance ── */
-.reassurance{
+/* ── Where to turn ── */
+.help{
   padding:clamp(2.5rem,5vw,4rem) 1.5rem;
-  background:var(--surface-warm)
+  background:var(--surface-warm);flex:1
 }
-.reassurance-grid{
+.help-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
   gap:clamp(1rem,2.5vw,2rem);
   max-width:1100px;margin:0 auto
 }
-.reass-card{
-  background:var(--white);
-  padding:1.75rem 1.5rem;
-  border:1px solid var(--rule);
-  border-radius:0
-}
-.reass-card__icon{
-  font-size:1.5rem;margin-bottom:.75rem;
-  display:block;color:var(--rose)
-}
-.reass-card h3{
-  font-size:1.1rem;margin-bottom:.5rem;
-  font-weight:400
-}
-.reass-card p{
-  font-size:.9rem;color:var(--ink-mid)
-}
+.card{background:var(--white);padding:1.75rem 1.5rem;border:1px solid var(--rule)}
+.card h3{margin-bottom:.5rem}
+.card p{font-size:.9rem}
 
-/* ── Stories ── */
-.stories{
-  padding:clamp(2.5rem,5vw,4rem) 1.5rem;
-  background:var(--surface)
+/* ── Note ── */
+.note{
+  padding:clamp(2rem,4vw,3rem) 1.5rem;
+  background:var(--surface);text-align:center
 }
-.stories h2{
-  text-align:center;margin-bottom:2.5rem
-}
-.stories-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  gap:2rem;
-  max-width:1100px;margin:0 auto
-}
-.story{
-  border-top:2px solid var(--rose-light);
-  padding-top:1.25rem
-}
-.story blockquote{
-  font-family:'Fraunces',Georgia,serif;
-  font-size:1.05rem;font-weight:300;
-  font-style:italic;
-  line-height:1.6;
-  color:var(--ink);
-  margin-bottom:.75rem;
-  quotes:none
-}
-.story cite{
-  font-size:.8rem;font-style:normal;
-  color:var(--ink-light)
-}
-
-/* ── CTA Section ── */
-.cta-banner{
-  padding:clamp(2.5rem,5vw,4rem) 1.5rem;
-  background:var(--sage);
-  text-align:center;
-  color:var(--white)
-}
-.cta-banner h2{
-  color:var(--white);margin-bottom:.75rem
-}
-.cta-banner p{
-  color:rgba(255,255,255,.85);
-  max-width:540px;margin:0 auto 1.5rem
-}
-.cta-banner .btn-primary{
-  background:var(--white);color:var(--sage)
-}
-.cta-banner .btn-primary:hover{
-  background:var(--sage-light);color:var(--sage-dark)
-}
-.cta-banner .btn-phone.ghost{
-  background:transparent;
-  border:1.5px solid rgba(255,255,255,.4);
-  color:var(--white)
-}
-.cta-banner .btn-phone.ghost:hover{
-  border-color:var(--white);background:rgba(255,255,255,.1)
-}
+.note p{margin:0 auto}
 
 /* ── Footer ── */
 .site-footer{
-  padding:2.5rem 1.5rem 2rem;
-  background:var(--ink);color:rgba(255,255,255,.6);
-  font-size:.85rem;line-height:1.6
+  padding:1.5rem 1.5rem;
+  background:var(--ink);color:rgba(255,255,255,.4);
+  font-size:.75rem;line-height:1.6;text-align:center
 }
-.footer-inner{
-  max-width:1100px;margin:0 auto;
-  display:flex;
-  flex-wrap:wrap;gap:2rem;
-  justify-content:space-between
-}
-.footer-col h4{
-  font-family:'Inter',sans-serif;
-  font-size:.7rem;font-weight:600;
-  text-transform:uppercase;letter-spacing:.08em;
-  color:rgba(255,255,255,.4);
-  margin-bottom:.75rem
-}
-.footer-col a{
-  color:rgba(255,255,255,.65);
-  text-decoration:none;display:block;
-  margin-bottom:.35rem
-}
-.footer-col a:hover{color:var(--white)}
-.footer-legal{
-  max-width:1100px;margin:2rem auto 0;
-  padding-top:1.5rem;
-  border-top:1px solid rgba(255,255,255,.1);
-  font-size:.75rem;
-  color:rgba(255,255,255,.4)
-}
+.site-footer p{color:inherit;margin:0 auto;max-width:none}
 
-/* ── Sticky Phone (mobile) ── */
-.sticky-phone{
-  display:none;
-  position:fixed;bottom:0;left:0;right:0;
-  z-index:200;
-  background:var(--sage);
-  color:var(--white);
-  text-align:center;
-  padding:.65rem 1rem;
-  font-family:'Inter',sans-serif;
-  font-size:.95rem;font-weight:600;
-  text-decoration:none;
-  letter-spacing:.02em
-}
-.sticky-phone span{display:block;font-size:.7rem;font-weight:400;opacity:.75;margin-bottom:2px}
-
-/* ── Responsive ── */
 @media(max-width:640px){
   .header-inner{padding:.65rem 1rem}
   .header-logo span{font-size:.9rem}
-  .header-logo span small{font-size:.6rem}
-  .header-phone .label{display:none}
-  .header-phone{font-size:.85rem}
   .hero{padding:2.5rem 1rem 2rem}
-  .btn+.btn{margin-left:0;margin-top:.5rem}
-  .site-footer{padding-bottom:4rem}
 }
 @media(max-width:480px){
   .header-logo span small{display:none}
   .hero h1{font-size:1.6rem}
 }
-@media(min-width:641px){
-  .sticky-phone{display:none!important}
-}
 </style>
 </head>
 <body>
 
-<!-- ═══ Sticky Phone (mobile only) ═══ -->
-<a href="tel:+19031234567" class="sticky-phone">
-  <span>Call us — we answer 24/7</span>
-  (903) 123-4567
-</a>
-
-<!-- ═══ Header ═══ -->
 <header class="site-header">
   <div class="header-inner">
-    <a href="/" class="header-logo">
-      <!-- Azalea flower mark -->
-      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a href="/" class="header-logo" aria-label="Azalea Hospice &amp; Palliative Care">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <circle cx="16" cy="16" r="15" fill="#EDD5DB" stroke="#C0627A" stroke-width="1.5"/>
         <path d="M16 6 C16 6, 14 9, 14 11 C14 13, 15 14, 16 14 C17 14, 18 13, 18 11 C18 9, 16 6, 16 6Z" fill="#C0627A" opacity=".7"/>
         <path d="M16 18 C16 18, 14 21, 14 23 C14 25, 15 26, 16 26 C17 26, 18 25, 18 23 C18 21, 16 18, 16 18Z" fill="#C0627A" opacity=".6"/>
@@ -366,18 +140,13 @@ a:hover{color:var(--rose)}
         <small>Hospice &amp; Palliative Care</small>
       </span>
     </a>
-    <a href="tel:+19031234567" class="header-phone">
-      <span class="label">Answer 24/7</span>
-      (903) 123-4567
-    </a>
   </div>
 </header>
 
-<!-- ═══ Hero ═══ -->
-<section class="hero">
-  <div class="container">
+<main>
+  <section class="hero">
     <div class="hero-mark">
-      <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:56px;height:56px">
+      <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <circle cx="28" cy="28" r="27" fill="#EDD5DB" stroke="#C0627A" stroke-width="2"/>
         <path d="M28 8 C28 8, 25 13, 25 17 C25 20, 26.5 22, 28 22 C29.5 22, 31 20, 31 17 C31 13, 28 8, 28 8Z" fill="#C0627A" opacity=".7"/>
         <path d="M28 34 C28 34, 25 39, 25 43 C25 46, 26.5 48, 28 48 C29.5 48, 31 46, 31 43 C31 39, 28 34, 28 34Z" fill="#C0627A" opacity=".6"/>
@@ -386,108 +155,34 @@ a:hover{color:var(--rose)}
         <circle cx="28" cy="28" r="4.5" fill="#B8924A"/>
       </svg>
     </div>
-    <h1>To accompany people through the last chapter of life with skilled care, attentive presence, and dignity.</h1>
-    <p class="dek">We are a Tyler-based hospice team that comes to you — at home, in your community, wherever you need us. We answer the phone at 3 AM, and we do not rush.</p>
-    <div class="hero-cta">
-      <a href="tel:+19031234567" class="btn btn-primary">Talk with a nurse</a>
-      <a href="sms:+19031234567" class="btn btn-phone">Text us</a>
-    </div>
-    <p class="hero-sub">Call us before you think you need to. Most families wish they had.</p>
-  </div>
-</section>
+    <h1>Azalea Hospice is not currently providing care.</h1>
+    <p class="dek">We are not accepting patients or referrals right now. If you or someone you love needs hospice care, please don&rsquo;t wait on us. Here is where to turn.</p>
+  </section>
 
-<!-- ═══ Reassurance ═══ -->
-<section class="reassurance">
-  <div class="reassurance-grid">
-    <div class="reass-card">
-      <span class="reass-card__icon">🏠</span>
-      <h3>We come to you</h3>
-      <p>Home, assisted living, nursing home — wherever you call home is where we provide care. Our team travels to you throughout Smith County and East Texas.</p>
-    </div>
-    <div class="reass-card">
-      <span class="reass-card__icon">🕐</span>
-      <h3>We answer 24/7</h3>
-      <p>A real nurse answers when you call — not an answering service, not a recording. Nights, weekends, holidays. When you need us, we pick up.</p>
-    </div>
-    <div class="reass-card">
-      <span class="reass-card__icon">💰</span>
-      <h3>Cost: $0</h3>
-      <p>Hospice is fully covered by Medicare, Medicaid, and most private insurance. No bills for hospice services. No copays. No surprises.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ Stories ═══ -->
-<section class="stories">
-  <div class="container">
-    <h2>From families we've served</h2>
-    <div class="stories-grid">
-      <div class="story">
-        <blockquote>"I could not ask for more loving, caring people to be with us through all of my husband's illness. They were clinical experts and they were family."</blockquote>
-        <cite>— Mary, Tyler</cite>
+  <section class="help" aria-label="Where to find care">
+    <div class="help-grid">
+      <div class="card">
+        <h3>In an emergency, call 911</h3>
+        <p>If someone is in immediate danger or in crisis, call 911. If someone is already on hospice with another agency, call that agency&rsquo;s 24-hour line first.</p>
       </div>
-      <div class="story">
-        <blockquote>"The nurse came at 11 PM on a Sunday. Stayed until my mother was comfortable. Left her personal number. That's the kind of care Azalea provides."</blockquote>
-        <cite>— David, Whitehouse</cite>
+      <div class="card">
+        <h3>Find a hospice near you</h3>
+        <p>Medicare&rsquo;s <a href="https://www.medicare.gov/care-compare/" rel="noopener">Care Compare</a> lists Medicare-certified hospices by ZIP code. You can also ask your doctor, or call a hospice directly. You don&rsquo;t need a referral to ask.</p>
       </div>
-      <div class="story">
-        <blockquote>"When breathing got harder and we didn't know what to do, we called. A nurse was at our door in 20 minutes. She knew exactly what to do."</blockquote>
-        <cite>— Linda, Lindale</cite>
+      <div class="card">
+        <h3>Not sure where to start? Dial 211</h3>
+        <p>211 is the Texas information and referral line. Someone there can point you to hospice, home health, and caregiver support in your area.</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ═══ CTA Banner ═══ -->
-<section class="cta-banner">
-  <div class="container">
-    <h2>Call us before you think you need to.</h2>
-    <p>Most families tell us they wish they had called sooner. You don't need a referral&mdash;you can call us directly, anytime.</p>
-    <div class="hero-cta">
-      <a href="tel:+19031234567" class="btn btn-primary">(903) 123-4567</a>
-      <a href="sms:+19031234567" class="btn btn-phone ghost">Text us</a>
-    </div>
-  </div>
-</section>
+  <section class="note">
+    <p>Questions about Azalea Hospice? Write to us at <a href="mailto:info@azaleahospice.com">info@azaleahospice.com</a>.</p>
+  </section>
+</main>
 
-<!-- ═══ Footer ═══ -->
 <footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-col" style="max-width:260px">
-      <h4>Azalea Hospice</h4>
-      <p style="color:rgba(255,255,255,.55);font-size:.8rem">
-        We accompany people through the last chapter of life with skilled care, attentive presence, and uncompromising dignity.
-      </p>
-    </div>
-    <div class="footer-col">
-      <h4>For families</h4>
-      <a href="what-is-hospice.html">What is hospice?</a>
-      <a href="when-is-it-time.html">When is it time?</a>
-      <a href="what-it-covers.html">What hospice covers</a>
-      <a href="families.html">For families</a>
-    </div>
-    <div class="footer-col">
-      <h4>For professionals</h4>
-      <a href="refer.html">Make a referral</a>
-      <a href="care.html">Our care</a>
-      <a href="volunteer.html">Volunteer</a>
-      <a href="careers.html">Careers</a>
-    </div>
-    <div class="footer-col">
-      <h4>Contact</h4>
-      <a href="tel:+19031234567">(903) 123-4567</a>
-      <p style="color:rgba(255,255,255,.55);font-size:.8rem;margin-bottom:.25rem">
-        307 S McDonald, Suite 100C<br>
-        McKinney, TX 75069
-      </p>
-      <p style="color:rgba(255,255,255,.55);font-size:.75rem">
-        Serving Smith County, Texas
-      </p>
-    </div>
-  </div>
-  <div class="footer-legal">
-    <p>&copy; 2026 Avant Hospice, LLC dba Azalea Hospice &amp; Palliative Care &middot; License #020708 &middot; NPI 1699350090 &middot; All rights reserved.</p>
-  </div>
+  <p>&copy; 2026 Avant Hospice, LLC dba Azalea Hospice &amp; Palliative Care &middot; All rights reserved.</p>
 </footer>
 
 </body>
